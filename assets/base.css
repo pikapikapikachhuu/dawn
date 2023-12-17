@@ -72,7 +72,10 @@
 }
 
 /* base */
-
+.banner__box>*:first-child {
+  margin-top: 0;
+  color: green;
+}
 .no-js:not(html) {
   display: none !important;
 }
